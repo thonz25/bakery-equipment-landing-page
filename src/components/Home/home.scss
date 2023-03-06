@@ -1,0 +1,43 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+  h1 {
+    color: #fff;
+    font-size: 5.3rem;
+    margin: 0;
+
+    letter-spacing: 0.2rem;
+  }
+}
+
+h2 {
+  color: #8d8d8d;
+  margin-top: 2rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  letter-spacing: 0.15rem;
+  animation: fadeIn 1s 1.8s backwards;
+  margin-bottom: 3em;
+}
+.flat-button {
+  color: #ffd700;
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  padding: 1em 1.8em;
+  border: 1px solid #ffd700;
+  border-radius: 0.3rem;
+  animation: fadeIn 1s 1.8s backwards;
+  white-space: nowrap;
+  &:hover {
+    background-color: #ffd700;
+    color: #333;
+  }
+}

@@ -1,0 +1,15 @@
+.logo-container {
+  width: 40%;
+  border: 1px solid red;
+  position: absolute;
+  right: 5%;
+  height: 90%;
+  display: grid;
+  place-items: center;
+  img {
+    display: block;
+
+    height: 100%;
+    width: 70%;
+  }
+}
