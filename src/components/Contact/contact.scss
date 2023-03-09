@@ -1,0 +1,100 @@
+.contact-form {
+  width: 100%;
+  margin-top: 2em;
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 1em;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeIn 2s 2s;
+      animation-fill-mode: forwards;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+      width: 100%;
+      margin-bottom: 1em;
+      border: 0;
+      height: 4rem;
+      font-size: 1.6rem;
+      color: #fff;
+      background-color: #115173;
+      padding: 0 2em;
+    }
+  }
+  textarea {
+    width: 100%;
+    border: 0;
+    background-color: #115173;
+    height: 5rem;
+    color: #fff;
+    padding: 2em;
+  }
+  .flat-button {
+    color: #ffd700;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 0.3rem;
+    text-decoration: none;
+    padding: 0.8em 1em;
+    border: 1px solid #ffd700;
+    border-radius: 0.4rem;
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+.info-map {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0.7em;
+  left: 3.5em;
+  z-index: 999;
+  width: 26.7rem;
+  padding: 0.5em;
+  color: black;
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: fadeIn 1s 1.5s;
+  animation-fill-mode: forwards;
+  backdrop-filter: blur(2px);
+  border-radius: 0.4em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  span {
+    font-size: 1.6rem;
+    display: block;
+    padding-top: 0.5em;
+    a {
+      margin-left: 0.5em;
+    }
+  }
+  .business-name {
+    color: #ffd700;
+    font-size: 2rem;
+    padding: 0 0 0.3em;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+.map-wrap {
+  background: rgba(8, 253, 216, 0.1);
+  width: 50%;
+  height: 100%;
+  position: relative;
+  left: 48%;
+}
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+  animation: backInRight 1s 1.2s;
+  animation-fill-mode: forwards;
+}
