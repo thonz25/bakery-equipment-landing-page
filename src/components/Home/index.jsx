@@ -41,8 +41,12 @@ export default function Home() {
           />
         </h1>
         <h2>
-          his error typically indicates that there is an issue with the server
-          serving the JavaScript file for the Home component. Here are some
+          Welcome to <span>Trophy's Bakery Equipment</span>! Our wide selection
+          of products, from ovens to mixers, are carefully crafted with
+          durability and efficiency in mind, ensuring that your bakery operates
+          at its fullest potential. We also offer made-to-order and restoration
+          services, as well as home service repairs, so that you can have peace
+          of mind knowing that we have got you covered from start to finish.
         </h2>
         <Link to="/contact" className="flat-button">
           CONTACT US

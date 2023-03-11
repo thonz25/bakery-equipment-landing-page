@@ -24,6 +24,9 @@ h2 {
   letter-spacing: 0.15rem;
   animation: fadeIn 1s 1.8s backwards;
   margin-bottom: 3em;
+  span {
+    color: #ffd700;
+  }
 }
 .flat-button {
   color: #ffd700;

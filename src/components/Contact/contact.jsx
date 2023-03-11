@@ -48,12 +48,15 @@ export default function Contact() {
               idx={15}
             />
           </h1>
-          <p>
-            where we can customize equipment to fit your exact specifications.
-            Not only will this ensure that you have equipment that is perfectly
-            suited for your bakery, but it will also give you a competitive edge
-            in the industry. With our made-to-order service, you can create a
-            bakery
+          <p className="description">
+            At <span>Trophy's Bakery Equipment</span>, we understand that
+            convenience is key when it comes to purchasing bakery equipment.
+            That's why we offer nationwide shipping through third-party
+            couriers, ensuring that your equipment arrives safely and in a
+            timely manner. Whether you're in <span>LUZON</span>,{" "}
+            <span>VISAYAS</span> or <span>MINDANAO</span>. We're committed to
+            bringing our high-quality bakery machines to you. Trust us to handle
+            the logistics, and let us help take your bakery to the next level.
           </p>
           <div className="contact-form">
             <form ref={formRef} onSubmit={onSubmit}>
@@ -97,10 +100,10 @@ export default function Contact() {
             Laurel st. Villaluz subd. Villarica rd. Marilao Bulacan
             <br />
             <FontAwesomeIcon icon={faMobileAndroidAlt} color="#115173" /> Smart
-            : +63 962-045-5148
+            : <i>+63 962-045-5148</i>
             <br />
             <FontAwesomeIcon icon={faMobileAndroidAlt} color="#115173" /> Globe
-            : +63 915-275-5190
+            : <i>+63 915-275-5190</i>
             <span>
               <FontAwesomeIcon icon={faFacebook} color="#115173" />
               <a href="#">Trophy's Bakery Equipment</a>

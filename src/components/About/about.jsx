@@ -36,23 +36,29 @@ export default function About() {
           <div className="card">
             <h2>Restoration</h2>
             <p>
-              At our bakery equipment business, we understand that every bakery
-              has unique needs and preferences when it comes to their equipment.
-              That's why we offer a made-to-order
+              We can restore your equipment to like-new condition. We can
+              diagnose and repair any issue you may be experiencing with your
+              equipment. From routine maintenance to complex repairs, we have
+              the knowledge and expertise to get your equipment running smoothly
+              again.
             </p>
           </div>
           <div className="card">
-            <h2>Restoration</h2>
+            <h2>Made to order</h2>
             <p>
-              At our bakery equipment business, we understand that every bakery
-              has unique needs and preferences when it comes to their equipment.
+              We understand that every business has unique needs. That's why we
+              offer made-to-order equipment that's tailored to your specific
+              requirements. Let us know what you need and we'll build it for
+              you.
             </p>
           </div>
           <div className="card">
-            <h2>Restoration</h2>
+            <h2>Home service</h2>
             <p>
-              At our bakery equipment business, we understand that every bakery
-              has unique needs and preferences when it comes to their equipment.
+              Don't have time to bring your equipment to us? No problem. We
+              offer home service repairs, so you can get back to work without
+              having to leave your business. We'll come to you and get the job
+              done right the first time.
             </p>
           </div>
         </div>
@@ -80,7 +86,7 @@ export default function About() {
               {/* #efd81d */}
             </div>
             <div className="face6">
-              <img src={face6} alt="Oven roller image" />
+              <img src={face6} alt="Oven image" />
               {/* #ec4d28 */}
             </div>
           </div>
