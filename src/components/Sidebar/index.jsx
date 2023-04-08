@@ -2,10 +2,19 @@ import "./sidebar.scss";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import React from "react";
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faTools, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-export default function Sidebar() {
+export default function Sidebar(props) {
+  const [screenSize, setSCreenSize] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleSize = () => setSCreenSize(window.innerWidth);
+
+    window.addEventListener("resize", handleSize);
+    return () => window.removeEventListener("resize", handleSize);
+  }, []);
+  console.log(screenSize);
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">

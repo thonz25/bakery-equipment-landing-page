@@ -85,3 +85,26 @@
     }
   }
 }
+@media (max-width: 700px) {
+  .logo-container {
+    width: 60%;
+    height: 200px;
+    position: absolute;
+    top: 3.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    .card {
+      &.front {
+        img {
+          width: 50%;
+        }
+      }
+
+      &.back {
+        span {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
