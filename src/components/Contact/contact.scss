@@ -107,3 +107,29 @@
     font-weight: 600;
   }
 }
+@media (max-width: 700px) {
+  .container {
+    .text-zone {
+      h1 {
+        text-align: center;
+      }
+      position: static;
+
+      width: 95%;
+      transform: translateY(40rem);
+      text-align: left;
+
+      margin: 0 auto 8rem;
+    }
+    .map-wrap {
+      position: absolute;
+
+      left: 50%;
+      transform: translateX(-50%);
+      width: 95%;
+      border: 1px solid white;
+      height: 30em;
+      top: 5em;
+    }
+  }
+}
