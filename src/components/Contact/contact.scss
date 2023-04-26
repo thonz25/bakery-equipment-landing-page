@@ -109,33 +109,37 @@
 }
 @media (max-width: 700px) {
   .contact-page {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
     display: flex;
-    height: auto;
-    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1em;
+
     .contact-text-zone {
-      width: 95%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      margin: 63em auto;
+      padding-top: 3em;
       h1 {
         text-align: center;
+        margin-bottom: 0;
       }
-      position: static;
-
-      // transform: translateY(40rem);
-      text-align: left;
+      display: block;
+      width: 100%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      margin-bottom: 1em;
     }
     .map-wrap {
       position: absolute;
-      display: block;
       left: 50%;
       transform: translateX(-50%);
+      top: 100%;
       width: 95%;
-      top: 6em;
       height: 30em;
+      margin-bottom: 1em;
     }
   }
 }
