@@ -108,28 +108,34 @@
   }
 }
 @media (max-width: 700px) {
-  .container {
-    .text-zone {
+  .contact-page {
+    display: flex;
+    height: auto;
+    overflow-y: scroll;
+    .contact-text-zone {
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 63em auto;
       h1 {
         text-align: center;
       }
       position: static;
 
-      width: 95%;
       // transform: translateY(40rem);
       text-align: left;
-
-      margin: 0 auto 8rem;
     }
     .map-wrap {
       position: absolute;
-
+      display: block;
       left: 50%;
       transform: translateX(-50%);
       width: 95%;
-
+      top: 6em;
       height: 30em;
-      bottom: 0;
     }
   }
 }
