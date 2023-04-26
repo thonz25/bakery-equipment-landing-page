@@ -150,6 +150,13 @@
     position: static;
 
     height: auto;
+    button {
+      top: 1em;
+    }
+  }
+  .contact-page {
+    padding-top: 30em;
+    overflow-y: scroll;
   }
   .container {
     position: static;
