@@ -80,3 +80,34 @@ img {
     letter-spacing: 0.1rem;
   }
 }
+@media (max-width: 700px) {
+  .about-page {
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid wheat;
+    width: 100vw;
+    padding: 0;
+
+    .about-text-zone {
+      position: static;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1em;
+      p {
+        text-align: left;
+      }
+    }
+    .stage-cube-cont {
+      position: relative;
+      height: 40rem;
+      width: 40rem;
+      left: 50%;
+      transform: translateX(-42%);
+      margin: 2em auto 10em;
+    }
+  }
+}

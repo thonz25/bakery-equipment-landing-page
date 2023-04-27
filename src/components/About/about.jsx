@@ -23,7 +23,7 @@ export default function About() {
     <div className="container about-page">
       <div
         className="
-        text-zone"
+        text-zone about-text-zone"
       >
         <h1>
           <AnimatedLetters
