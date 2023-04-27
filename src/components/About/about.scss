@@ -7,7 +7,6 @@
   position: absolute;
   right: 0;
   overflow: hidden;
-  display: grid;
 }
 .cube-spinner {
   animation-name: spincube;
@@ -82,32 +81,33 @@ img {
 }
 @media (max-width: 700px) {
   .about-page {
+    position: static;
     height: auto;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid wheat;
+
     width: 100vw;
-    padding: 0;
 
     .about-text-zone {
       position: static;
-      width: 100%;
-      margin: 0 auto;
-      padding: 1em;
+      width: 95%;
+
+      transform: translateY(0);
       p {
         text-align: left;
       }
     }
     .stage-cube-cont {
-      position: relative;
-      height: 40rem;
-      width: 40rem;
-      left: 50%;
-      transform: translateX(-42%);
-      margin: 2em auto 10em;
+      margin-top: 3em;
+      position: static;
+      border: 1px solid wheat;
+      width: 42em;
+      height: 30em;
+      padding-left: 17%;
+      padding-top: 17%;
     }
   }
 }
