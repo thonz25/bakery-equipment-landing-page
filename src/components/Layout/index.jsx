@@ -4,7 +4,7 @@ import Sidebar from "../Sidebar";
 import { Outlet } from "react-router-dom";
 
 export default function Layout() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const onClick = () => {
     setIsOpen((prev) => !prev);

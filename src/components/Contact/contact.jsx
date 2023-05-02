@@ -91,7 +91,7 @@ export default function Contact() {
       <div className="map-wrap">
         <div className="info-map">
           <span className="business-name"> Trophy's Bakery Equipment</span>
-          Laurel st. Villaluz subd. Villarica rd. Marilao Bulacan
+          Laurel st. Villaluz subd. Villarica rd. Marilao Bulacan Philippines
           <br />
           <FontAwesomeIcon icon={faMobileAndroidAlt} color="#115173" /> Smart :{" "}
           <i>+63 962-045-5148</i>

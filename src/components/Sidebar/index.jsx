@@ -16,7 +16,10 @@ export default function Sidebar(props) {
   }, []);
   console.log(screenSize);
   return (
-    <div className="nav-bar">
+    <div
+      className="nav-bar"
+      style={{ right: props.state && screenSize < "700" ? "-50%" : "0" }}
+    >
       <Link className="logo" to="/">
         <img src={logo} alt="logo" />
       </Link>

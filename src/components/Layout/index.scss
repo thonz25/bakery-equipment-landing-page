@@ -20,7 +20,7 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
     opacity: 0;
-
+    display: none;
     span {
       position: absolute;
       width: 100%;
@@ -151,13 +151,13 @@
     height: auto;
 
     button {
-      top: 1em;
-      right: 1em;
+      top: 1.5em;
+      right: 2em;
+      display: block;
     }
   }
 
   .container {
-    position: static;
     height: auto;
     width: 100%;
   }

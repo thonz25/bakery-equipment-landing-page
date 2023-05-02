@@ -116,27 +116,29 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 1em;
+    padding: 0;
 
     .contact-text-zone {
-      padding-top: 3em;
+      padding-top: 3em 0;
       h1 {
         text-align: center;
         margin-bottom: 0;
       }
+      p {
+        font-size: 1.3rem;
+      }
       display: block;
-      width: 100%;
+      width: 95%;
       position: relative;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-52.5%);
       top: 0;
-      margin-bottom: 1em;
     }
     .map-wrap {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      top: 100%;
+      top: 103%;
       width: 95%;
       height: 30em;
       margin-bottom: 1em;
