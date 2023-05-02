@@ -15,3 +15,8 @@ input,
 textarea {
   font-family: $mainFont;
 }
+@media (max-width: 700px) {
+  html {
+    overflow-x: hi;
+  }
+}

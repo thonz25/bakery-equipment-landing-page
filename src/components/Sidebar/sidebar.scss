@@ -89,8 +89,8 @@ nav {
 @media (max-width: 700px) {
   .nav-bar {
     transition: all 0.5s ease-in-out;
-
-    width: 40%;
+    left: 100%;
+    width: 35%;
     .logo {
       margin-right: 8rem;
     }

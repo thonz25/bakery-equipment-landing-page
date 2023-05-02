@@ -18,19 +18,19 @@ export default function Sidebar(props) {
   return (
     <div
       className="nav-bar"
-      style={{ right: props.state && screenSize < "700" ? "-50%" : "0" }}
+      style={{ left: props.state && screenSize < 700 ? null : "70%" }}
     >
       <Link className="logo" to="/">
         <img src={logo} alt="logo" />
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink exact="true" activeClassName="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
 
         <NavLink
           exact="true"
-          activeclassname="active"
+          activeClassName="active"
           to="/services"
           className="service-link"
         >
@@ -38,7 +38,7 @@ export default function Sidebar(props) {
         </NavLink>
         <NavLink
           exact="true"
-          activeclassname="active"
+          activeClassName="active"
           to="/contact"
           className="contact-link"
         >
