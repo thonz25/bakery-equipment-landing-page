@@ -109,14 +109,15 @@
 }
 @media (max-width: 700px) {
   .contact-page {
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 0;
+    overflow-x: hidden;
 
     .contact-text-zone {
       padding-top: 3em 0;
