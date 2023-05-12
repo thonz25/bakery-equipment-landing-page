@@ -147,10 +147,10 @@
 
 @media (max-width: 700px) {
   .page {
-    position: static;
+    position: relative;
     height: auto;
     overflow-x: hidden;
-    width: 100vw;
+    width: 100%;
 
     button {
       top: 1.5em;
@@ -158,7 +158,9 @@
       display: block;
     }
   }
-
+  .text-zone {
+    border: 1px solid wheat;
+  }
   .container {
     height: auto;
     width: 100%;
