@@ -12,8 +12,8 @@ export default function Layout() {
 
   return (
     <div className="app">
-      <Sidebar state={isOpen} />
       <div className="page">
+        <Sidebar state={isOpen} />
         <button onClick={onClick}>
           <span
             style={{
