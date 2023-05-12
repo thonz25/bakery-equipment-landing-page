@@ -18,7 +18,14 @@ export default function Sidebar(props) {
   return (
     <div
       className="nav-bar"
-      style={{ left: props.state && screenSize < 700 ? null : "70%" }}
+      style={{
+        right:
+          screenSize >= 700
+            ? null
+            : screenSize < 700 && props.state
+            ? "-40%"
+            : "-10%",
+      }}
     >
       <Link className="logo" to="/">
         <img src={logo} alt="logo" />
