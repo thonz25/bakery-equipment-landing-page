@@ -81,6 +81,7 @@ img {
 }
 @media (max-width: 700px) {
   .about-page {
+    position: relative;
     overflow-x: hidden;
     display: flex;
     flex-direction: column-reverse;
@@ -89,7 +90,7 @@ img {
     text-align: center;
     height: auto;
     width: 100%;
-    overflow-x: hidden;
+
     .about-text-zone {
       position: static;
 
