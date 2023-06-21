@@ -100,7 +100,12 @@ export default function Contact() {
           <i>+63 915-275-5190</i>
           <span>
             <FontAwesomeIcon icon={faFacebook} color="#115173" />
-            <a href="#">Trophy's Bakery Equipment</a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100089661050390&mibextid=ZbWKwL"
+              target="_blank"
+            >
+              Trophy's Bakery Equipment
+            </a>
           </span>
         </div>
 
